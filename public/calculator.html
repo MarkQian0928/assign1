@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<script src="calculate.js"></script>
 	<title>Assign-1</title>
 </head>
 
@@ -25,36 +26,36 @@
 				<tr>
 					<td>Activity 1</td>
 					<td>A1</td>
-					<td width=210><input type="number" class="gradesize"> / <input type="number" class="gradesize"></td>
-					<td></td>
+					<td width=210><input type="number" class="gradesize" name="A"> / <input type="number" class="gradesize" name="B"></td>
+					<td id="P1"></td>
 				</tr>
 				<tr>
 					<td>Activity 2</td>
 					<td>A2</td>
-					<td><input type="number" class="gradesize"> / <input type="number" class="gradesize"></td>
-					<td></td>
+					<td><input type="number" class="gradesize" name="A"> / <input type="number" class="gradesize" name="B"></td>
+					<td id="P2"></td>
 				</tr>
 				<tr>
 					<td>Activity 3</td>
 					<td>A3</td>
-					<td><input type="number" class="gradesize"> / <input type="number" class="gradesize"></td>
-					<td></td>
+					<td><input type="number" class="gradesize" name="A"> / <input type="number" class="gradesize" name="B"></td>
+					<td id="P3"></td>
 				</tr>
 				<tr>
 					<td>Activity 4</td>
 					<td>A4</td>
-					<td><input type="number" class="gradesize"> / <input type="number" class="gradesize"></td>
-					<td></td>
+					<td><input type="number" class="gradesize" name="A"> / <input type="number" class="gradesize" name="B"></td>
+					<td id="P4"></td>
 				</tr>
 				<tr>
-					<td>TOTAL</td>
+					<td class="total">TOTAL</td>
 					<td></td>
 					<td></td>
-					<td></td>
+					<td id="TT"></td>
 				</tr>
 			</table>
-			<button class="button b1">AVERAGE</button>
-			<button class="button">MEAN</button>
+			<button type="button" class="button b1" onclick="average()">AVERAGE</button>
+			<button class="button" onclick="mean()">MEAN</button>
 		</div>
 	</div>
 </body>

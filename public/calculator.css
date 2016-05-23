@@ -21,16 +21,22 @@ h3 {
 table, th, td{
 	border: 1px solid grey;
     border-collapse: collapse;
+
 }
 
 td{
-	padding: 8px;
+	padding: 6px;
 }
 
 th{
 	text-align: left;
 	background-color: #CCC9C9;
-	padding: 5px;
+	padding: 6px;
+}
+
+.total{
+	font-weight: bold;
+	padding-top: 15px; 
 }
 
 #BackWhite{
